@@ -95,3 +95,4 @@ D:\OFFICE_Project_Assign\BACKEND & FRONTEND\Frontend\Employee_View\obj\Debug\net
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\Frontend\Employee_View\obj\Debug\net9.0\Employee_View.pdb
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\Frontend\Employee_View\obj\Debug\net9.0\Employee_View.genruntimeconfig.cache
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\Frontend\Employee_View\obj\Debug\net9.0\ref\Employee_View.dll
+D:\OFFICE_Project_Assign\BACKEND & FRONTEND\Frontend\Employee_View\obj\Debug\net9.0\Employee_View.sourcelink.json

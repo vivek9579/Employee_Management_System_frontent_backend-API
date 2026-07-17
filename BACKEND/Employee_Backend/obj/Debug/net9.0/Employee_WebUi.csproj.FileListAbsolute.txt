@@ -231,3 +231,4 @@ D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Employee_Backend\bin\Debug\n
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Employee_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Employee_Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Employee_Backend\obj\Debug\net9.0\Employee_WebUi.MvcApplicationPartsAssemblyInfo.cs
+D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Employee_Backend\obj\Debug\net9.0\Employee_WebUi.sourcelink.json

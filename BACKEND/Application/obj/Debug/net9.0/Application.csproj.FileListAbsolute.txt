@@ -13,3 +13,4 @@ D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Application\obj\Debug\net9.0
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Application\obj\Debug\net9.0\refint\Application.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Application\obj\Debug\net9.0\Application.pdb
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Application\obj\Debug\net9.0\ref\Application.dll
+D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Application\obj\Debug\net9.0\Application.sourcelink.json
