@@ -1,0 +1,40 @@
+﻿@model UserDTO
+<div class="container">
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-5 shadow mt-4">
+            <div class="card-header bg-black justify-content-between align-items-center d-flex">
+                <a class="btn btn-primary col-5" asp-controller="User" asp-action="Login"> Login </a>
+                <a class="btn btn-success col-5" asp-controller="User" asp-action="Ragister"> Ragister </a>
+            </div>
+            <form asp-action="Ragister" asp-controller="User" method="post">
+
+                <div class="form-group">
+                    <label class="form-label"> Enter Name </label>
+                    <input asp-for="Name" type="Text" placeholder="Enter Your'e Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger mt-2 mb-2"></span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label"> Email Address </label>
+                    <input asp-for="Email" type="email" placeholder="Enter Your'e Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger mt-2 mb-2"></span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label"> PassWord </label>
+                    <input asp-for="Password" placeholder="Enter Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger mt-2 mb-2"></span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label"> Role </label>
+                    <select asp-for="Role" class="form-select form-control ">
+                        <option value=""> ------ Select Role---------</option>
+                        <option value="Admin">Admin</option>
+                        <option value="User">User</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger mt-2 mb-2"></span>
+                </div>
+
+                <button class="btn btn-success w-100 mt-2 mb-2"> Ragister</button>
+            </form>
+        </div>
+    </div>
+</div>
