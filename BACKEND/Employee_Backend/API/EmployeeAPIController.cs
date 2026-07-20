@@ -15,12 +15,12 @@ namespace Employee_WebUi.API
             _employeeServices = EmployeeServices;
         }
             [HttpGet]
-            //public IActionResult Index()
-            //{
-            //    var list = _employeeServices.GetAll();
-            //    return Ok(list);
-            //}
-            public async Task<IActionResult> GetEmployees([FromQuery] EmployeeQuery query)
+        //public IActionResult Index()
+        //{
+        //    var list = _employeeServices.GetAll();
+        //    return Ok(list);
+        //}
+        public async Task<IActionResult> GetEmployees([FromQuery] EmployeeQuery query)
         {
             var list = await _employeeServices.GetEmployees(query);
             return Ok(list);

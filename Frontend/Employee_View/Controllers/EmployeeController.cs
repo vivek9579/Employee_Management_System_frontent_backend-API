@@ -19,17 +19,13 @@ namespace Employee_View.Controllers
         public async Task<IActionResult> Index(EmployeeQueryDTO query)
         {
             var employeeList = await _httpClient.GetFromJsonAsync<EmployeeQueryDTO>(
-                $"Api/EmployeeApi?" + 
-                $"search={query.Search}" + 
+                $"Api/EmployeeApi?" +
+                $"search={query.Search}" +
                 $"&sorting={query.Sorting}" +
-               $"&asc={query.Asc}" + 
-               $"&page={query.Page}" + 
+               $"&asc={query.Asc}" +
+               $"&page={query.Page}" +
                $"&pagesize={query.PageSize}");
-            //foreach (var item in employeeList)
-            //{
-            //    item.sorting = query.sorting;
-            //    item.asc = query.asc;
-            //}
+          
             return View(employeeList);
         }
 
@@ -42,10 +38,10 @@ namespace Employee_View.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(EmployeeDTO dto)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                var response = await _httpClient.PostAsJsonAsync<EmployeeDTO>("Api/EmployeeApi",dto);
-                if(response.IsSuccessStatusCode)
+                var response = await _httpClient.PostAsJsonAsync<EmployeeDTO>("Api/EmployeeApi", dto);
+                if (response.IsSuccessStatusCode)
                 {
                     return RedirectToAction("Index");
                 }
@@ -58,17 +54,17 @@ namespace Employee_View.Controllers
         {
             var employee = await _httpClient.GetFromJsonAsync<EmployeeDTO>($"Api/EmployeeApi/{id}");
             employee.Id = id;
-             employee.Departments = await _httpClient.GetFromJsonAsync<List<DepartmentDTO>>("Api/DepartmentApi");
+            employee.Departments = await _httpClient.GetFromJsonAsync<List<DepartmentDTO>>("Api/DepartmentApi");
             return View(employee);
         }
 
         [HttpPost]
         public async Task<IActionResult> Edit(EmployeeDTO dto)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var response = await _httpClient.PutAsJsonAsync<EmployeeDTO>($"Api/EmployeeApi/{dto.Id}", dto);
-                if(response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
                 {
                     return RedirectToAction("Index");
                 }
@@ -80,7 +76,7 @@ namespace Employee_View.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var response = await _httpClient.DeleteAsync($"Api/EmployeeApi/{id}");
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }

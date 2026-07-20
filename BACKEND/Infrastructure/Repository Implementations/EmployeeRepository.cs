@@ -43,8 +43,8 @@ namespace Infrastructure.Repository_Implementations
 
         public async Task<(List<Employee>, int totalRecords)> GetEmployees(string? search, string? sorting, bool asc, int page, int pageSize)
         {
-            var employees = _context.Employees.Include(x=>x.Department)
-                .Where(x=>x.IsActive).AsQueryable();
+            var employees = _context.Employees.Include(x => x.Department)
+                .Where(x => x.IsActive).AsQueryable();
             // Search Start here
             if (!string.IsNullOrEmpty(search))
             {

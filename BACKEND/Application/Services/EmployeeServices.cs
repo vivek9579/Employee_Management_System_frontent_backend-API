@@ -46,6 +46,7 @@ namespace Application.Services
         {
             var employees = await _employeeRepository.GetEmployees(query.Search,
                 query.Sorting, query.Asc, query.Page, query.PageSize);
+
             query.Employees = _mapper.Map<List<EmployeeDTO>>(employees.Item1);
             query.TotalRecords = employees.totalRecords;
             return query;
@@ -63,7 +64,7 @@ namespace Application.Services
             var employee = _employeeRepository.GetById(dto.Id);
             if (employee != null)
             {
-             var mapper =    _mapper.Map(dto, employee);
+                var mapper = _mapper.Map(dto, employee);
                 mapper.UpdatedDate = DateTime.Now;
                 _employeeRepository.Update(employee);
             }
