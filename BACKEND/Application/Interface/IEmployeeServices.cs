@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Application.Queries;
 
 namespace Application.Interface
 {
@@ -9,5 +10,7 @@ namespace Application.Interface
         void Create(EmployeeDTO dto);
         void Update(EmployeeDTO dto);
         void Delete(int id);
+    // Task<List<EmployeeDTO>> GetEmployees(EmployeeQuery query);
+   Task<EmployeeQuery> GetEmployees(EmployeeQuery query);
     }
 }

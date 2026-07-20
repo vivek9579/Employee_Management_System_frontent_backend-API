@@ -3,13 +3,19 @@
   "WorkspaceRootPath": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\interface\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\api\\employeeapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,16 +26,47 @@
       "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:api\\userapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\queries\\employeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\services\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\interface\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\idepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,57 +77,26 @@
       "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\api\\departmentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:api\\departmentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\services\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\data\\managementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\repository implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\api\\departmentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:api\\departmentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\interface\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D9812A5-2C12-4302-9D9D-DFC192611175}|..\\Infrastructure\\Infrastructure.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\infrastructure\\migrations\\20260716080614_userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\interfaces\\idepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF2CCFC1-2107-4DCA-A20E-96AE79D40281}|..\\Domain\\Domain.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\domain\\entity\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733B2ABE-643E-441B-A38B-309065CC8FC5}|..\\Application\\Application.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C8E25EF-D1ED-4560-BA72-73494AECE81B}|Employee_WebUi.csproj|d:\\office_project_assign\\backend \u0026 frontend\\backend\\employee_backend\\employee_webui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -117,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -132,48 +138,194 @@
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\EmployeeServices.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\EmployeeServices.cs",
+              "RelativeToolTip": "..\\Application\\Services\\EmployeeServices.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA5wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T05:22:46.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeAPIController.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\EmployeeAPIController.cs",
+              "RelativeDocumentMoniker": "API\\EmployeeAPIController.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\EmployeeAPIController.cs",
+              "RelativeToolTip": "API\\EmployeeAPIController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T07:56:15.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\UserServices.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\UserServices.cs",
+              "RelativeToolTip": "..\\Application\\Services\\UserServices.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvy4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:41:55.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T13:33:33.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interface\\IEmployeeServices.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IEmployeeServices.cs",
+              "RelativeToolTip": "..\\Application\\Interface\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T14:06:47.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T05:12:46.116Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IUserServices.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Interface\\IUserServices.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IUserServices.cs",
-              "RelativeToolTip": "..\\Application\\Interface\\IUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Title": "UserAPIController.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\UserAPIController.cs",
+              "RelativeDocumentMoniker": "API\\UserAPIController.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\UserAPIController.cs",
+              "RelativeToolTip": "API\\UserAPIController.cs",
+              "ViewState": "AgIAACMAAAB4mZmZmZkvwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T07:36:19.08Z"
+              "WhenOpened": "2026-07-16T07:51:46.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\UserServices.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\UserServices.cs",
-              "RelativeToolTip": "..\\Application\\Services\\UserServices.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\UserRepository.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\UserRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\UserRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T07:41:55.676Z"
+              "WhenOpened": "2026-07-16T07:22:10.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeServices.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\EmployeeServices.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\EmployeeServices.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\EmployeeServices.cs",
-              "RelativeToolTip": "..\\Application\\Services\\EmployeeServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IEmployee.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IEmployee.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IEmployee.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T05:22:46.731Z"
+              "WhenOpened": "2026-07-14T13:23:22.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUser.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T07:18:09.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T13:57:23.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T09:52:41.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartmentServices.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\DepartmentServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\DepartmentServices.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\DepartmentServices.cs",
+              "RelativeToolTip": "..\\Application\\Services\\DepartmentServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T06:04:18.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeQuery.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Queries\\EmployeeQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Queries\\EmployeeQuery.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Queries\\EmployeeQuery.cs",
+              "RelativeToolTip": "..\\Application\\Queries\\EmployeeQuery.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T05:04:13.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\Application\\DTOs\\UserDTO.cs",
@@ -186,92 +338,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeAPIController.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\EmployeeAPIController.cs",
-              "RelativeDocumentMoniker": "API\\EmployeeAPIController.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\EmployeeAPIController.cs",
-              "RelativeToolTip": "API\\EmployeeAPIController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IUserServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interface\\IUserServices.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IUserServices.cs",
+              "RelativeToolTip": "..\\Application\\Interface\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:56:15.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\UserRepository.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\UserRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\UserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T07:22:10.3Z",
+              "WhenOpened": "2026-07-16T07:36:19.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserAPIController.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\UserAPIController.cs",
-              "RelativeDocumentMoniker": "API\\UserAPIController.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\UserAPIController.cs",
-              "RelativeToolTip": "API\\UserAPIController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwDQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "..\\Application\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T07:51:46.34Z"
+              "WhenOpened": "2026-07-14T13:51:35.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "..\\Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxAAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "IDepartment.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IDepartment.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IDepartment.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IDepartment.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T05:12:46.116Z"
+              "WhenOpened": "2026-07-14T13:26:00.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entity\\Employee.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\Employee.cs",
+              "RelativeToolTip": "..\\Domain\\Entity\\Employee.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T11:57:57.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain.csproj",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-20T09:31:00.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-17T06:07:17.431Z"
+              "WhenOpened": "2026-07-15T04:45:38.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAADgY2ZmZmYwwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T04:52:03.438Z"
+              "WhenOpened": "2026-07-15T04:52:03.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\Application\\DTOs\\LoginDTO.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "..\\Application\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T09:52:41.208Z"
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-17T06:07:17.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
+              "Title": "ManagementDbContext.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Data\\ManagementDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ManagementDbContext.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Data\\ManagementDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\ManagementDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAMzMzMzMLwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T12:16:40.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "DepartmentAPIController.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\API\\DepartmentAPIController.cs",
               "RelativeDocumentMoniker": "API\\DepartmentAPIController.cs",
@@ -283,79 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DepartmentServices.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\DepartmentServices.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\DepartmentServices.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Services\\DepartmentServices.cs",
-              "RelativeToolTip": "..\\Application\\Services\\DepartmentServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T06:04:18.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\DepartmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T13:57:23.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManagementDbContext.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Data\\ManagementDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ManagementDbContext.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Data\\ManagementDbContext.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Data\\ManagementDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T12:16:40.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\Employee.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entity\\Employee.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\Employee.cs",
-              "RelativeToolTip": "..\\Domain\\Entity\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T11:57:57.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repository Implementations\\EmployeeRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T13:33:33.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IUser.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IUser.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUser.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IUser.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T07:18:09.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Infrastructure.csproj",
@@ -363,23 +474,12 @@
               "RelativeToolTip": "..\\Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-14T11:58:14.088Z"
+              "WhenOpened": "2026-07-14T11:58:14.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IEmployeeServices.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IEmployeeServices.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Interface\\IEmployeeServices.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IEmployeeServices.cs",
-              "RelativeToolTip": "..\\Application\\Interface\\IEmployeeServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T14:06:47.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "20260716080614_UserLogin.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Migrations\\20260716080614_UserLogin.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260716080614_UserLogin.cs",
@@ -391,19 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IEmployee.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IEmployee.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IEmployee.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IEmployee.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T13:23:22.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\User.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entity\\User.cs",
@@ -415,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Entity\\Department.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entity\\Department.cs",
@@ -427,31 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-15T04:45:38.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IDepartment.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IDepartment.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IDepartment.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Domain\\Interfaces\\IDepartment.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IDepartment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T13:26:00.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "DepartmentDTO.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\DepartmentDTO.cs",
               "RelativeDocumentMoniker": "..\\Application\\DTOs\\DepartmentDTO.cs",
@@ -463,19 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EmployeeDTO.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\EmployeeDTO.cs",
-              "RelativeDocumentMoniker": "..\\Application\\DTOs\\EmployeeDTO.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\DTOs\\EmployeeDTO.cs",
-              "RelativeToolTip": "..\\Application\\DTOs\\EmployeeDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T13:51:35.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Employee_WebUi.csproj",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Employee_WebUi.csproj",
               "RelativeDocumentMoniker": "Employee_WebUi.csproj",
@@ -483,11 +535,12 @@
               "RelativeToolTip": "Employee_WebUi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-14T11:48:30.171Z"
+              "WhenOpened": "2026-07-14T11:48:30.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "IDepartmentServices.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Interface\\IDepartmentServices.cs",
               "RelativeDocumentMoniker": "..\\Application\\Interface\\IDepartmentServices.cs",
@@ -499,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "20260715052634_Init.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Infrastructure\\Migrations\\20260715052634_Init.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260715052634_Init.cs",
@@ -511,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Application.csproj",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "..\\Application\\Application.csproj",
@@ -519,18 +572,20 @@
               "RelativeToolTip": "..\\Application\\Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T05:12:49.59Z"
+              "WhenOpened": "2026-07-15T05:12:49.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Employee_WebUi",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Employee_WebUi.csproj",
               "RelativeDocumentMoniker": "Employee_WebUi.csproj",
               "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\BACKEND\\Employee_Backend\\Employee_WebUi.csproj",
               "RelativeToolTip": "Employee_WebUi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-15T04:34:49.195Z"
+              "WhenOpened": "2026-07-15T04:34:49.195Z",
+              "EditorCaption": ""
             }
           ]
         },

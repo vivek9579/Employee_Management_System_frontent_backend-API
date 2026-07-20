@@ -19,5 +19,6 @@ namespace Employee_View.Models
         public string? DepartmentName { get; set; }
         [JsonIgnore]
       public List<DepartmentDTO>? Departments { get; set; }
+
     }
 }

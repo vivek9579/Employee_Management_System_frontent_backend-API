@@ -30,7 +30,7 @@ namespace Employee_View
                 {
                     options.LoginPath = "/User/Login";
                     options.AccessDeniedPath = "/Home/Index";
-                    options.ExpireTimeSpan = TimeSpan.FromMinutes(1);
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
                     options.SlidingExpiration = true;
                 });
 

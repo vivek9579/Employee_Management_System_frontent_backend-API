@@ -80,12 +80,53 @@
   },
   {
     "ContainingType": "Employee_WebUi.API.EmployeeAPIController",
-    "Method": "Index",
+    "Method": "GetEmployees",
     "RelativePath": "Api/EmployeeAPI",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sorting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Asc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalPages",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Employees",
+        "Type": "System.Collections.Generic.List\u00601[[Application.DTOs.EmployeeDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

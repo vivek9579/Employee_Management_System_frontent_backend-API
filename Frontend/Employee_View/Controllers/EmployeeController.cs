@@ -16,9 +16,20 @@ namespace Employee_View.Controllers
             //_httpClient = httpClient;
             // _httpClient.BaseAddress = new Uri("https://localhost:44303/");
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(EmployeeQueryDTO query)
         {
-            var employeeList = await _httpClient.GetFromJsonAsync<List<EmployeeDTO>>("Api/EmployeeApi");
+            var employeeList = await _httpClient.GetFromJsonAsync<EmployeeQueryDTO>(
+                $"Api/EmployeeApi?" + 
+                $"search={query.Search}" + 
+                $"&sorting={query.Sorting}" +
+               $"&asc={query.Asc}" + 
+               $"&page={query.Page}" + 
+               $"&pagesize={query.PageSize}");
+            //foreach (var item in employeeList)
+            //{
+            //    item.sorting = query.sorting;
+            //    item.asc = query.asc;
+            //}
             return View(employeeList);
         }
 

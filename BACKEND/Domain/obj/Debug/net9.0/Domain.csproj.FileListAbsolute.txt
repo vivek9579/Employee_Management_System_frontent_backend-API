@@ -9,3 +9,4 @@ D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Domain\obj\Debug\net9.0\Doma
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Domain\obj\Debug\net9.0\refint\Domain.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Domain\obj\Debug\net9.0\Domain.pdb
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Domain\obj\Debug\net9.0\ref\Domain.dll
+D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Domain\obj\Debug\net9.0\Domain.sourcelink.json

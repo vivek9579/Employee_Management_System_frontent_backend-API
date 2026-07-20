@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Interface;
+using Application.Queries;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employee_WebUi.API
@@ -13,10 +14,15 @@ namespace Employee_WebUi.API
         {
             _employeeServices = EmployeeServices;
         }
-        [HttpGet]
-        public IActionResult Index()
+            [HttpGet]
+            //public IActionResult Index()
+            //{
+            //    var list = _employeeServices.GetAll();
+            //    return Ok(list);
+            //}
+            public async Task<IActionResult> GetEmployees([FromQuery] EmployeeQuery query)
         {
-            var list = _employeeServices.GetAll();
+            var list = await _employeeServices.GetEmployees(query);
             return Ok(list);
         }
         [HttpGet("{id}")]
@@ -38,11 +44,11 @@ namespace Employee_WebUi.API
         }
 
         [HttpPut("{id}")]
-        public IActionResult Edit(int id , EmployeeDTO dto)
+        public IActionResult Edit(int id, EmployeeDTO dto)
         {
             var employeeId = _employeeServices.GetById(id);
             dto.Id = id;
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _employeeServices.Update(dto);
                 return Ok("Employee Updated");
@@ -54,7 +60,7 @@ namespace Employee_WebUi.API
         public IActionResult Delete(int id)
         {
             var employeeId = _employeeServices.GetById(id);
-           if(employeeId != null)
+            if (employeeId != null)
             {
                 _employeeServices.Delete(id);
                 return Ok("Employee Deleted");

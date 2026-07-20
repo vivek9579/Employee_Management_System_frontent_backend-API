@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\employeequerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\employeequerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +31,28 @@
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\user\\ragister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -63,20 +79,12 @@
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\models\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:models\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F67FC4A-671F-4B44-A69B-4F5514D74289}|Employee_View.csproj|d:\\office_project_assign\\backend \u0026 frontend\\frontend\\employee_view\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,103 +98,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T12:40:47.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwCAAAAAQAAAAAAAAAA==",
+              "Title": "EmployeeQueryDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeQueryDTO.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeQueryDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeQueryDTO.cs",
+              "RelativeToolTip": "Models\\EmployeeQueryDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T08:26:10.907Z",
+              "WhenOpened": "2026-07-20T05:55:19.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-15T13:31:06.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA0wBQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:04:39.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Models\\UserDTO.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\UserDTO.cs",
-              "RelativeToolTip": "Models\\UserDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T10:24:42.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwEQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T13:26:22.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
               "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T09:59:36.965Z"
+              "WhenOpened": "2026-07-15T09:59:36.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-15T13:31:06.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -199,7 +167,110 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABQAAAAAAgAAAADgvxsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T08:26:10.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeDTO.cs",
+              "RelativeToolTip": "Models\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:11:33.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T13:26:22.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T10:58:48.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-16T06:15:10.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAzMzMzMwkwCAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T10:04:39.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-15T10:14:03.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserDTO.cs",
+              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\UserDTO.cs",
+              "RelativeToolTip": "Models\\UserDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T10:24:42.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
@@ -211,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -223,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Ragister.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\User\\Ragister.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Ragister.cshtml",
@@ -235,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
@@ -247,31 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-16T06:15:10.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Models\\LoginDTO.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\LoginDTO.cs",
-              "RelativeToolTip": "Models\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-16T10:58:48.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "DepartmentDTO.cs",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\DepartmentDTO.cs",
               "RelativeDocumentMoniker": "Models\\DepartmentDTO.cs",
@@ -283,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -295,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -307,19 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeDTO.cs",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeDTO.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeDTO.cs",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Models\\EmployeeDTO.cs",
-              "RelativeToolTip": "Models\\EmployeeDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T10:11:33.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Department\\Create.cshtml",
@@ -331,19 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
-              "ToolTip": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-15T10:14:03.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\OFFICE_Project_Assign\\BACKEND \u0026 FRONTEND\\Frontend\\Employee_View\\Views\\Department\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Department\\Edit.cshtml",
@@ -352,16 +375,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-15T12:58:03.922Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
