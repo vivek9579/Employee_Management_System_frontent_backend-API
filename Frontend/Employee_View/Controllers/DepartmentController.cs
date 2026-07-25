@@ -1,6 +1,8 @@
 ﻿using Employee_View.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Net.Http.Headers;
 
 namespace Employee_View.Controllers
 {
@@ -18,8 +20,28 @@ namespace Employee_View.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var departmentList = await _httpClient.GetFromJsonAsync<List<DepartmentDTO>>("Api/DepartmentApi");
+            //AddToken();
 
+            var response = await _httpClient.GetAsync("Api/DepartmentApi");
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                TempData["Msg"] = "U can not open this page";
+                return RedirectToAction("Login", "User");
+            }
+            if (response.StatusCode == HttpStatusCode.Forbidden)
+            {
+                TempData["forbidden"] = "Sorrye u have not Permission";
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
+                TempData["eror"] = error.Message;
+                return RedirectToAction("Login", "User");
+            }
+
+            var departmentList = await response.Content.ReadFromJsonAsync<List<DepartmentDTO>>();
             return View(departmentList);
         }
         public async Task<IActionResult> Create()
@@ -63,7 +85,7 @@ namespace Employee_View.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var response = await _httpClient.DeleteAsync($"Api/DepartmentApi/{id}");
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }

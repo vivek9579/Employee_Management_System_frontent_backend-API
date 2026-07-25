@@ -30,21 +30,37 @@ namespace Employee_View.Controllers
             {
                 var response = await _httpClient.PostAsJsonAsync("Api/UserAPI/Login",
                    dto, cancellationToken);
+
                 if (response.IsSuccessStatusCode)
                 {
+
                     var read = await response.Content.ReadFromJsonAsync<LoginDTO>(cancellationToken);
+                    HttpContext.Session.SetString("JWTToken", read.Token);
                     var claims = new List<Claim>()
                 {
-                       new Claim(ClaimTypes.Email , read.Email)
+                       new Claim(ClaimTypes.Email , read.Email),
+                      new Claim(ClaimTypes.Role , read.Role),
+
                 };
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults
                                                     .AuthenticationScheme, new ClaimsPrincipal(identity));
-                    return RedirectToAction("Index", "Department");
+                    if(User.IsInRole("User"))
+                    {
+                        return RedirectToAction("Index", "Employee");
+                    }
+                    if (User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("Index", "Employee");
+                    }
+
                 }
-                
+                //if (!response.IsSuccessStatusCode)
+                //{
+                //    var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
+                //    TempData["error"] = error?.Message;
+                //}              
             }
-            
             return View(dto);
         }
 

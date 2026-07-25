@@ -7,6 +7,6 @@ namespace Domain.Interfaces
         List<User> GetAll();
         User GetById(int id);
         void Ragister(User user);
-        User? Login(string email, string password);
+        User? Login(string email);
     }
 }

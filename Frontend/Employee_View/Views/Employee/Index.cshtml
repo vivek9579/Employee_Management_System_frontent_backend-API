@@ -80,3 +80,13 @@
            class="btn btn-danger m-1 align-items-center"> <i class="fa-solid fa-angles-right"></i></a>
     }
 }
+<script>
+    @if (TempData["eror"] != null)
+    {
+      <text> showMessage('@TempData["eror"]'); </text>
+    }
+    function showMessage(message)
+    {
+        alert(message);
+    }
+</script>

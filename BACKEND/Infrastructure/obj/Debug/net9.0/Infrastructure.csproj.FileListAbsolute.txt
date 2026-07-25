@@ -11,10 +11,10 @@ D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
-D:\OFFICE_Project_Assign\BACKEND & FRONTEND\BACKEND\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

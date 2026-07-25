@@ -40,3 +40,21 @@
         </div>
     </div>
 </div>
+<script>
+    @if (TempData["eror"] != null)
+    {
+              <text> showMessage('@TempData["eror"]'); </text>
+    }
+    @if (TempData["Msg"] != null)
+    {
+        <text>shoMessage('@TempData["Msg"]');</text>
+    }
+    @if (TempData["forbidden"] != null)
+    {
+            <text> showMessage('@TempData["forbidden"]'); </text>
+    }
+    function showMessage(message)
+    {
+        alert(message);
+    }
+</script>

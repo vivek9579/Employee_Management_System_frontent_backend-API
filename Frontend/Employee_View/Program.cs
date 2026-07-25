@@ -1,4 +1,6 @@
+using Employee_View.Controllers;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Employee_View
 {
@@ -29,11 +31,24 @@ namespace Employee_View
                 .AddCookie(options =>
                 {
                     options.LoginPath = "/User/Login";
-                    options.AccessDeniedPath = "/Home/Index";
+                    options.AccessDeniedPath = "/User/Login";
                     options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
                     options.SlidingExpiration = true;
                 });
-
+            builder.Services.AddSession();
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddTransient<TokenHandler>();
+            builder.Services.AddHttpClient("ApiClient", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:44303/");
+            }).ConfigurePrimaryHttpMessageHandler(() =>
+            {
+                return new HttpClientHandler
+                {
+                    ServerCertificateCustomValidationCallback =
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+                };
+            }) .AddHttpMessageHandler<TokenHandler>() ;
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -49,7 +64,7 @@ namespace Employee_View
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseSession();
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",

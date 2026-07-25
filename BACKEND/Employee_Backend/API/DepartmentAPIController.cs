@@ -1,12 +1,15 @@
 ﻿using Application.DTOs;
 using Application.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 
 namespace Employee_WebUi.API
 {
     [ApiController]
     [Route("Api/[Controller]")]
-    public class DepartmentAPIController : ControllerBase
+    [Authorize(Roles ="Admin")]
+   public class DepartmentAPIController : ControllerBase
     {
         private readonly IDepartmentServices _departmentServices;
 
@@ -14,6 +17,7 @@ namespace Employee_WebUi.API
         {
             _departmentServices = DepartmentServices;
         }
+        
         [HttpGet]
         public IActionResult Index()
         {

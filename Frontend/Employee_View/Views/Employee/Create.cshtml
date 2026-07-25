@@ -45,3 +45,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    @if (TempData["eror"] != null)
+    {
+          <text> showMessage('@TempData["eror"]'); </text>
+    }
+    function showMessage(message)
+    {
+        alert(message);
+    }
+</script>

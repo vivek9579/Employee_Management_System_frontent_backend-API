@@ -1,12 +1,14 @@
 ﻿using Application.DTOs;
 using Application.Interface;
 using Application.Queries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employee_WebUi.API
 {
     [ApiController]
     [Route("Api/[controller]")]
+    [Authorize(Roles ="User , Admin")]
     public class EmployeeAPIController : ControllerBase
     {
         private readonly IEmployeeServices _employeeServices;
@@ -14,7 +16,8 @@ namespace Employee_WebUi.API
         {
             _employeeServices = EmployeeServices;
         }
-            [HttpGet]
+      
+        [HttpGet]
         //public IActionResult Index()
         //{
         //    var list = _employeeServices.GetAll();
@@ -33,7 +36,7 @@ namespace Employee_WebUi.API
         }
 
         [HttpPost]
-        public IActionResult Create(EmployeeDTO dto)
+        public IActionResult Create([FromForm] EmployeeDTO dto)
         {
             if (ModelState.IsValid)
             {
@@ -44,16 +47,20 @@ namespace Employee_WebUi.API
         }
 
         [HttpPut("{id}")]
-        public IActionResult Edit(int id, EmployeeDTO dto)
+        public IActionResult Edit(int id,[FromForm] EmployeeDTO dto)
         {
             var employeeId = _employeeServices.GetById(id);
-            dto.Id = id;
-            if (ModelState.IsValid)
+            if (employeeId == null)
             {
-                _employeeServices.Update(dto);
-                return Ok("Employee Updated");
+                return NotFound("Employee Not Found");
             }
-            return Ok(dto);
+            dto.Id = id;
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            _employeeServices.Update(dto);
+            return Ok("Employee Updated");
         }
 
         [HttpDelete("{id}")]

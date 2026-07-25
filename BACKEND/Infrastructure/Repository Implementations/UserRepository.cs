@@ -23,9 +23,9 @@ namespace Infrastructure.Repository_Implementations
             return _context.Users.FirstOrDefault(x => x.Id == id);
         }
 
-        public User Login(string email, string password)
+        public User Login(string email)
         {
-            return _context.Users.FirstOrDefault(x => x.Email == email && x.Password == password);
+            return _context.Users.FirstOrDefault(x => x.Email == email);
         }
 
         public void Ragister(User user)
