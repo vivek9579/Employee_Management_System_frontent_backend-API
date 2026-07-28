@@ -9,5 +9,7 @@ namespace Application.Interface
         void Ragister(UserDTO dTO);
      //   void Login(UserDTO dto);
        LoginDTO Login(UserDTO dto);
+        LoginDTO RefreshToken(RefreshTokenDTO refreshToken);
+        void Logout(RefreshTokenDTO refreshToken);
     }
 }

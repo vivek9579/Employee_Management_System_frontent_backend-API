@@ -12,7 +12,7 @@ namespace Infrastructure.Data
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<RefereshToken> RefereshTokens { get; set; }
+        public DbSet<RefreshToken> RefereshTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,7 +22,7 @@ namespace Infrastructure.Data
                 .WithMany(x => x.Employees)
                 .HasForeignKey(x => x.DepartmentId);
 
-            modelBuilder.Entity<RefereshToken>()
+            modelBuilder.Entity<RefreshToken>()
                 .HasOne(x => x.User)
                 .WithMany(x => x.RefereshTokens)
                 .HasForeignKey(x => x.UserId);

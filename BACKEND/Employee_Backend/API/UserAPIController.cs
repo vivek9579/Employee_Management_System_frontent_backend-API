@@ -43,11 +43,31 @@ namespace Employee_WebUi.API
         public IActionResult Login(UserDTO dto)
         {
             var user = _userServices.Login(dto);
-            if(user == null)
+            if (user == null)
             {
                 return Unauthorized(user);
             }
             return Ok(user);
+        }
+
+        [HttpPost("RefreshToken")]
+        public IActionResult RefreshToken(RefreshTokenDTO dto)
+        {
+            try
+            {
+                var refreshtoken = _userServices.RefreshToken(dto);
+                return Ok(refreshtoken);
+            }
+            catch(Exception ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+        }
+        [HttpPost("Logout")]
+        public IActionResult Logout(RefreshTokenDTO dto)
+        {
+            _userServices.Logout(dto);
+            return Ok("Your'e Logout this website");
         }
     }
 }

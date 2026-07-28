@@ -60,17 +60,21 @@ namespace Employee_View.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(EmployeeDTO dto)
         {
-            var response = await _httpClient.PostAsJsonAsync<EmployeeDTO>("Api/EmployeeApi", dto);
-            if (response.IsSuccessStatusCode)
+            if (ModelState.IsValid)
             {
-                
-                return RedirectToAction("Index");
+                var response = await _httpClient.PostAsJsonAsync<EmployeeDTO>("Api/EmployeeApi", dto);
+                if (response.IsSuccessStatusCode)
+                {
+
+                    return RedirectToAction("Index");
+                }
+                 var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
+                //var error = await response.Content.ReadAsStringAsync();
+                // ModelState.AddModelError("", error?.Message);
+                TempData["error"] = error?.Message;
+                dto.Departments = await _httpClient.GetFromJsonAsync<List<DepartmentDTO>>("Api/DepartmentApi");
             }
-            var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
-            // ModelState.AddModelError("", error?.Message);
-            TempData["error"] = error?.Message;
-            dto.Departments = await _httpClient.GetFromJsonAsync<List<DepartmentDTO>>("Api/DepartmentApi");
-            return View(dto);
+                return View(dto);
         }
 
         public async Task<IActionResult> Edit(int id)

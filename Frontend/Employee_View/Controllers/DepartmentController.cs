@@ -2,11 +2,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using System.Net.Http.Headers;
 
 namespace Employee_View.Controllers
 {
-    [Authorize]
+    [Authorize(Roles ="Admin")]
     public class DepartmentController : Controller
     {
         //private readonly IHttpClientFactory _factory;

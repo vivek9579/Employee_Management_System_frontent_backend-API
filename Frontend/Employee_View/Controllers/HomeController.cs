@@ -1,8 +1,6 @@
 using Employee_View.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Net.Http;
-using System.Net.Http.Headers;
 
 namespace Employee_View.Controllers
 {

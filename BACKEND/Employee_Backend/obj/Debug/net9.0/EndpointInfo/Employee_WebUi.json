@@ -212,85 +212,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "Id": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Name": {
-                    "type": "string"
-                  },
-                  "Email": {
-                    "type": "string"
-                  },
-                  "Mobile": {
-                    "type": "string"
-                  },
-                  "Salary": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "IsActive": {
-                    "type": "boolean"
-                  },
-                  "JoiningDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "CreatedDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "UpdatedDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "DepartmentId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "DepartmentName": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "Id": {
-                  "style": "form"
-                },
-                "Name": {
-                  "style": "form"
-                },
-                "Email": {
-                  "style": "form"
-                },
-                "Mobile": {
-                  "style": "form"
-                },
-                "Salary": {
-                  "style": "form"
-                },
-                "IsActive": {
-                  "style": "form"
-                },
-                "JoiningDate": {
-                  "style": "form"
-                },
-                "CreatedDate": {
-                  "style": "form"
-                },
-                "UpdatedDate": {
-                  "style": "form"
-                },
-                "DepartmentId": {
-                  "style": "form"
-                },
-                "DepartmentName": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
               }
             }
           }
@@ -341,85 +275,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "Id": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Name": {
-                    "type": "string"
-                  },
-                  "Email": {
-                    "type": "string"
-                  },
-                  "Mobile": {
-                    "type": "string"
-                  },
-                  "Salary": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "IsActive": {
-                    "type": "boolean"
-                  },
-                  "JoiningDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "CreatedDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "UpdatedDate": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "DepartmentId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "DepartmentName": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "Id": {
-                  "style": "form"
-                },
-                "Name": {
-                  "style": "form"
-                },
-                "Email": {
-                  "style": "form"
-                },
-                "Mobile": {
-                  "style": "form"
-                },
-                "Salary": {
-                  "style": "form"
-                },
-                "IsActive": {
-                  "style": "form"
-                },
-                "JoiningDate": {
-                  "style": "form"
-                },
-                "CreatedDate": {
-                  "style": "form"
-                },
-                "UpdatedDate": {
-                  "style": "form"
-                },
-                "DepartmentId": {
-                  "style": "form"
-                },
-                "DepartmentName": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDTO"
               }
             }
           }
@@ -548,6 +416,68 @@
           }
         }
       }
+    },
+    "/Api/UserAPI/RefreshToken": {
+      "post": {
+        "tags": [
+          "UserAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Api/UserAPI/Logout": {
+      "post": {
+        "tags": [
+          "UserAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshTokenDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -620,6 +550,16 @@
             "format": "int32"
           },
           "departmentName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefreshTokenDTO": {
+        "type": "object",
+        "properties": {
+          "refreshToken": {
             "type": "string",
             "nullable": true
           }

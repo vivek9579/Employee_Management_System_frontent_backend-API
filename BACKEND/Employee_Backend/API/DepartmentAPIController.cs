@@ -8,8 +8,8 @@ namespace Employee_WebUi.API
 {
     [ApiController]
     [Route("Api/[Controller]")]
-    [Authorize(Roles ="Admin")]
-   public class DepartmentAPIController : ControllerBase
+    [Authorize]
+    public class DepartmentAPIController : ControllerBase
     {
         private readonly IDepartmentServices _departmentServices;
 
@@ -19,6 +19,7 @@ namespace Employee_WebUi.API
         }
         
         [HttpGet]
+        [Authorize]
         public IActionResult Index()
         {
            var departmentList = _departmentServices.GetAll();
@@ -32,6 +33,7 @@ namespace Employee_WebUi.API
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Create(DepartmentDTO dto)
         {
             if(ModelState.IsValid)
@@ -43,6 +45,7 @@ namespace Employee_WebUi.API
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id, DepartmentDTO dto)
         {
             var departmentId = _departmentServices.GetById(id);

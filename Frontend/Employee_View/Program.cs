@@ -14,30 +14,12 @@ namespace Employee_View
             builder.Services.AddControllersWithViews();
 
             //  builder.Services.AddHttpClient();
-            builder.Services.AddHttpClient("ApiClient", client =>
-            {
-                client.BaseAddress = new Uri("https://localhost:44303/");
-            })
-  .ConfigurePrimaryHttpMessageHandler(() =>
-  {
-      return new HttpClientHandler
-      {
-          ServerCertificateCustomValidationCallback =
-              HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
-      };
-  });
-
-            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.LoginPath = "/User/Login";
-                    options.AccessDeniedPath = "/User/Login";
-                    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
-                    options.SlidingExpiration = true;
-                });
+            // session add
             builder.Services.AddSession();
             builder.Services.AddHttpContextAccessor();
+            // token handler
             builder.Services.AddTransient<TokenHandler>();
+            // HttpClient with tokenHandler
             builder.Services.AddHttpClient("ApiClient", client =>
             {
                 client.BaseAddress = new Uri("https://localhost:44303/");
@@ -46,9 +28,35 @@ namespace Employee_View
                 return new HttpClientHandler
                 {
                     ServerCertificateCustomValidationCallback =
-                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+                    HttpClientHandler.DangerousAcceptAnyServerCertificateValidator,
                 };
-            }) .AddHttpMessageHandler<TokenHandler>() ;
+            }).AddHttpMessageHandler<TokenHandler>();
+
+            // refreshToken SSl Add start
+
+            builder.Services.AddHttpClient("RefreshToken", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:44303/");
+            }).ConfigurePrimaryHttpMessageHandler(() =>
+            {
+                return new HttpClientHandler
+                {
+                    ServerCertificateCustomValidationCallback = 
+                            HttpClientHandler.DangerousAcceptAnyServerCertificateValidator,
+                };
+            });
+
+            // refreshToken SSl Add end
+            // cookie 
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/User/Login";
+                    options.AccessDeniedPath = "/User/Login";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(10);
+                    options.SlidingExpiration = true;
+                });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

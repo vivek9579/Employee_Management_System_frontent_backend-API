@@ -35,9 +35,11 @@ namespace Employee_Backend
             builder.Services.AddScoped<IUser, UserRepository>();
             builder.Services.AddScoped<IUserServices, UserServices>();
             builder.Services.AddScoped<IUserAuthentication, UserAuthenticate>();
-
+            // Automapper
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddEndpointsApiExplorer();
+
+            builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
             builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
             // JWT Authentication
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

@@ -8,7 +8,8 @@ namespace Employee_WebUi.API
 {
     [ApiController]
     [Route("Api/[controller]")]
-    [Authorize(Roles ="User , Admin")]
+    [Authorize(Roles ="Admin , User")]
+
     public class EmployeeAPIController : ControllerBase
     {
         private readonly IEmployeeServices _employeeServices;
@@ -36,7 +37,7 @@ namespace Employee_WebUi.API
         }
 
         [HttpPost]
-        public IActionResult Create([FromForm] EmployeeDTO dto)
+        public IActionResult Create(EmployeeDTO dto)
         {
             if (ModelState.IsValid)
             {
@@ -47,7 +48,7 @@ namespace Employee_WebUi.API
         }
 
         [HttpPut("{id}")]
-        public IActionResult Edit(int id,[FromForm] EmployeeDTO dto)
+        public IActionResult Edit(int id,EmployeeDTO dto)
         {
             var employeeId = _employeeServices.GetById(id);
             if (employeeId == null)

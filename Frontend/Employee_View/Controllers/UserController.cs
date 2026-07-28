@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http.Json;
 using System.Security.Claims;
 
 namespace Employee_View.Controllers
@@ -36,6 +35,7 @@ namespace Employee_View.Controllers
 
                     var read = await response.Content.ReadFromJsonAsync<LoginDTO>(cancellationToken);
                     HttpContext.Session.SetString("JWTToken", read.Token);
+                    HttpContext.Session.SetString("RefreshToken", read.RefreshToken);
                     var claims = new List<Claim>()
                 {
                        new Claim(ClaimTypes.Email , read.Email),
@@ -45,27 +45,29 @@ namespace Employee_View.Controllers
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults
                                                     .AuthenticationScheme, new ClaimsPrincipal(identity));
-                    if(User.IsInRole("User"))
+                    if (read.Role == "User")
                     {
                         return RedirectToAction("Index", "Employee");
                     }
-                    if (User.IsInRole("Admin"))
+                    if (read.Role == "Admin")
                     {
                         return RedirectToAction("Index", "Employee");
                     }
-
                 }
-                //if (!response.IsSuccessStatusCode)
-                //{
-                //    var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
-                //    TempData["error"] = error?.Message;
-                //}              
             }
             return View(dto);
         }
 
+
         public async Task<IActionResult> logout()
         {
+            // await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var dto = new RefrenceTokenDTO
+            {
+                RefreshToken = HttpContext.Session.GetString("RefreshToken")
+            };
+            await _httpClient.PatchAsJsonAsync("Api/UserAPI/Logout", dto);
+            HttpContext.Session.Clear();
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
         }

@@ -13,15 +13,18 @@ namespace Application.Services
         private readonly Domain.Interfaces.IUser _userRepository;
         private readonly IUserAuthentication _userAuthentication;
         private readonly IPasswordHasher<User> _passwordHasher;
+        private readonly IRefreshTokenRepository _refreshTokenRepository;
 
         public UserServices(IMapper mapper , Domain.Interfaces.IUser userRepository
                             , IUserAuthentication userAuthentication
-                            , IPasswordHasher<User> passwordHasher)
+                            , IPasswordHasher<User> passwordHasher
+                            , IRefreshTokenRepository refreshTokenRepository)
         {
             _mapper = mapper;
             _userRepository = userRepository;
             _userAuthentication = userAuthentication;
             _passwordHasher = passwordHasher;
+            _refreshTokenRepository = refreshTokenRepository;
         }
 
         public UserDTO GetAll()
@@ -39,7 +42,7 @@ namespace Application.Services
         public void Ragister(UserDTO dTO)
         {
            var ragister = _mapper.Map<User>(dTO);
-            ragister.Password = _passwordHasher.HashPassword(ragister, dTO.Password);
+            ragister.PasswordHash = _passwordHasher.HashPassword(ragister, dTO.Password);
             _userRepository.Ragister(ragister);
         }
         public LoginDTO Login(UserDTO dto)
@@ -50,24 +53,68 @@ namespace Application.Services
             {
                 return null;
             }
-            var password = _passwordHasher.VerifyHashedPassword(user, user.Password, dto.Password);
+          
+            var password = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, dto.Password);
             if (password == PasswordVerificationResult.Failed)
             {
                 return null;
             }
 
-            var token = _userAuthentication.UserGenerateToken(user);
+            // Generate Token
+            var refreshToken = new RefreshToken()
+            {
+                ReToken = Guid.NewGuid().ToString(),
+                ExpiryDate = DateTime.Now.AddMinutes(30),
+                UserId = user.Id,
+                IsRevers = true,
+            };
+            // Add Database refresh Token
+            _refreshTokenRepository.RefreshToken(refreshToken);
 
+            var accessToken = _userAuthentication.UserGenerateToken(user);
             var result = new LoginDTO()
             {
-                Token = token,
+                
+                Token = accessToken,
+                RefreshToken = refreshToken.ReToken,
                 Email = user.Email,
-                Password = user.Password,
                 Role = user.Role
+            };
+            return result;           
+
+        }
+
+        public LoginDTO RefreshToken(RefreshTokenDTO refreshToken)
+        {
+            var token = _refreshTokenRepository.GetRefreshToken(refreshToken.RefreshToken);
+            if(token == null)
+            {
+                throw new UnauthorizedAccessException("Inavalid Token");
+            }
+           
+           if(token.ExpiryDate < DateTime.Now)
+            {
+                throw new UnauthorizedAccessException("Sorry Your'e Token is Expire");
+            }
+            var user = _userRepository.GetById(token.UserId);
+            var accessToken = _userAuthentication.UserGenerateToken(user);
+
+            var result = new LoginDTO
+            {
+                Token = accessToken,
+                RefreshToken = token.ReToken,
+                Email = user.Email,
+                Role = user.Role
+                
             };
             return result;
             
-
+        }
+        public void Logout(RefreshTokenDTO refreshToken)
+        {
+            var token = _refreshTokenRepository.GetRefreshToken(refreshToken.RefreshToken);
+            token.IsRevers = false ;
+            _refreshTokenRepository.Update(token);
         }
     }
 }
